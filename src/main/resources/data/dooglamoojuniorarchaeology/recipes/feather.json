@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+	{
+      "item": "minecraft:string"
+    },
+	{
+      "item": "dooglamoojuniorarchaeology:bubble_gum"
+    },
+    {
+      "item": "dooglamoojuniorarchaeology:feathery_spine"
+    }
+  ],
+  "result": {
+    "item": "minecraft:feather",
+    "count": 1
+  }
+}

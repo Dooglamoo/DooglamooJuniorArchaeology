@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "dooglamoojuniorarchaeology:skeleton"
+  },
+  "result": "minecraft:bone",
+  "experience": 0.2,
+  "cookingtime": 200
+}

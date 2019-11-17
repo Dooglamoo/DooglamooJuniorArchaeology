@@ -1,0 +1,27 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "dooglamoojuniorarchaeology:block/spider_nest_stage2",
+        "cocoon": "dooglamoojuniorarchaeology:block/spider_nest_stage2"
+    },
+    "elements": [
+        {   "from": [ 4, 3, 7 ],
+            "to": [ 12, 12, 15 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0,  7,  7 ], "texture": "#cocoon" },
+                "up":    { "uv": [ 0, 0,  7,  7 ], "texture": "#cocoon" },
+                "north": { "uv": [ 7, 4, 15, 13 ], "texture": "#cocoon" },
+                "south": { "uv": [ 7, 4, 15, 13 ], "texture": "#cocoon" },
+                "west":  { "uv": [ 7, 4, 15, 13 ], "texture": "#cocoon" },
+                "east":  { "uv": [ 7, 4, 15, 13 ], "texture": "#cocoon" }
+            }
+        },
+        {   "from": [ 8, 12, 12 ],
+            "to": [ 8, 16, 16 ],
+            "faces": {
+                "west": { "uv": [ 12, 0, 16, 4 ], "texture": "#cocoon" },
+                "east": { "uv": [ 16, 0, 12, 4 ], "texture": "#cocoon" }
+            }
+        }
+    ]
+}

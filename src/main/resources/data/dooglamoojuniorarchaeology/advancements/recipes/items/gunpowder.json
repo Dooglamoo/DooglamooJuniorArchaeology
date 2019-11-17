@@ -1,0 +1,32 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeology:gunpowder"
+    ]
+  },
+  "criteria": {
+    "has_creeper_gas": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dooglamoojuniorarchaeology:creeper_gas"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:gunpowder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_creeper_gas",
+      "has_the_recipe"
+    ]
+  ]
+}

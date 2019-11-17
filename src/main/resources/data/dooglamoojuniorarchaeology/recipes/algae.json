@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+      "item": "dooglamoojuniorarchaeology:algae_artifact"
+    }
+  ],
+  "result": {
+    "item": "dooglamoojuniorarchaeology:algae",
+    "count": 3
+  }
+}

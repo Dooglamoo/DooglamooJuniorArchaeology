@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lily_pad"
+    },
+	{
+      "item": "minecraft:clay_ball"
+    },
+	{
+      "item": "dooglamoojuniorarchaeology:bubble_gum"
+    },
+    {
+      "item": "dooglamoojuniorarchaeology:algae"
+    }
+  ],
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "dooglamoojuniorarchaeology:block/algae" },
+            { "model": "dooglamoojuniorarchaeology:block/algae", "y": 90 },
+            { "model": "dooglamoojuniorarchaeology:block/algae", "y": 180 },
+            { "model": "dooglamoojuniorarchaeology:block/algae", "y": 270 }
+        ]
+    }
+}

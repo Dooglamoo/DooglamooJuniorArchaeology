@@ -1,0 +1,76 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeologymod:leather_pelt"
+    ]
+  },
+  "criteria": {
+    "has_snow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:snow"
+          }
+        ]
+      }
+    },
+    "has_snow_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:snow_block"
+          }
+        ]
+      }
+    },
+    "has_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ice"
+          }
+        ]
+      }
+    },
+    "has_packed_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:packed_ice"
+          }
+        ]
+      }
+    },
+    "has_snowball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:snowball"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:leather_pelt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_snow",
+      "has_snow_block",
+      "has_ice",
+      "has_packed_ice",
+      "has_snowball",
+      "has_the_recipe"
+    ]
+  ]
+}

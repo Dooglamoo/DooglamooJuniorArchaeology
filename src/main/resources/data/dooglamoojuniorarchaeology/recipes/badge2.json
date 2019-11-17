@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WIW",
+    "SAS",
+    "WBW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    },
+    "I": {
+      "item": "minecraft:string"
+    },
+    "A": {
+      "item": "dooglamoojuniorarchaeology:spider_nest_artifact"
+    },
+    "B": {
+      "item": "dooglamoojuniorarchaeology:badge1"
+    }
+  },
+  "result": {
+    "item": "dooglamoojuniorarchaeology:badge2"
+  }
+}

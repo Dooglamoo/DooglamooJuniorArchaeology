@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WIW",
+    "SAS",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    },
+    "I": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "A": {
+      "item": "dooglamoojuniorarchaeology:bubble_gum_artifact"
+    }
+  },
+  "result": {
+    "item": "dooglamoojuniorarchaeology:badge1"
+  }
+}

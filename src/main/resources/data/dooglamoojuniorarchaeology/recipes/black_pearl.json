@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+      "item": "dooglamoojuniorarchaeology:black_pearl_artifact"
+    }
+  ],
+  "result": {
+    "item": "dooglamoojuniorarchaeology:black_pearl",
+    "count": 3
+  }
+}

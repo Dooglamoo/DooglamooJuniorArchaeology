@@ -1,0 +1,43 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeologymod:skeleton"
+    ]
+  },
+  "criteria": {
+    "has_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sandstone"
+          }
+        ]
+      }
+    },
+    "has_red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_sandstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:skeleton"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sandstone",
+      "has_red_sandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

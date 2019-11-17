@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+      "item": "dooglamoojuniorarchaeology:skeleton_artifact"
+    }
+  ],
+  "result": {
+    "item": "dooglamoojuniorarchaeology:skeleton",
+    "count": 3
+  }
+}

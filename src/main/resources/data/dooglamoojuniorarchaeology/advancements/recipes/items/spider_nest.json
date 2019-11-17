@@ -1,0 +1,76 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeologymod:spider_nest"
+    ]
+  },
+  "criteria": {
+    "has_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone"
+          }
+        ]
+      }
+    },
+    "has_granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:granite"
+          }
+        ]
+      }
+    },
+    "has_diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diorite"
+          }
+        ]
+      }
+    },
+    "has_andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:andesite"
+          }
+        ]
+      }
+    },
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:spider_nest"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stone",
+      "has_granite",
+      "has_diorite",
+      "has_andesite",
+      "has_cobblestone",
+      "has_the_recipe"
+    ]
+  ]
+}

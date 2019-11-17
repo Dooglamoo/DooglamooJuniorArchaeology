@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+	{
+      "item": "dooglamoojuniorarchaeology:bubble_gum"
+    },
+	{
+      "item": "dooglamoojuniorarchaeology:black_pearl"
+    },
+    {
+      "item": "dooglamoojuniorarchaeology:blaze_stone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 1
+  }
+}

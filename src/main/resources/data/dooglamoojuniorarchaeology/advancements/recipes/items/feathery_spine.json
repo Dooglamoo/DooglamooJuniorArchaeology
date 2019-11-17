@@ -1,0 +1,32 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeologymod:feathery_spine"
+    ]
+  },
+  "criteria": {
+    "has_gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gravel"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:feathery_spine"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gravel",
+      "has_the_recipe"
+    ]
+  ]
+}

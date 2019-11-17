@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "dooglamoojuniorarchaeology:hammer"
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "dooglamoojuniorarchaeology:pick"
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "dooglamoojuniorarchaeology:drill"
+                  }
+                }
+              ]
+            }
+          ],
+          "name": "dooglamoojuniorarchaeology:creeper_gas",
+          "weight": 1000
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:hammer"
+              }
+            }
+          ],
+          "name": "dooglamoojuniorarchaeology:creeper_gas_artifact",
+          "weight": 33
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:pick"
+              }
+            }
+          ],
+          "name": "dooglamoojuniorarchaeology:creeper_gas_artifact",
+          "weight": 66
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:drill"
+              }
+            }
+          ],
+          "name": "dooglamoojuniorarchaeology:creeper_gas_artifact",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:empty",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:hammer"
+              }
+            }
+          ],
+          "weight": 3000
+        },
+        {
+          "type": "minecraft:empty",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:pick"
+              }
+            }
+          ],
+          "weight": 2000
+        },
+        {
+          "type": "minecraft:empty",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:drill"
+              }
+            }
+          ],
+          "weight": 1000
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ],
+          "name": "minecraft:blue_terracotta",
+          "weight": 7000
+        }
+      ]
+    }
+  ]
+}

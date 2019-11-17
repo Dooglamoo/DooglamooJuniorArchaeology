@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "dooglamoojuniorarchaeology:block/skeleton" },
+            { "model": "dooglamoojuniorarchaeology:block/skeleton", "y": 90 },
+            { "model": "dooglamoojuniorarchaeology:block/skeleton", "y": 180 },
+            { "model": "dooglamoojuniorarchaeology:block/skeleton", "y": 270 }
+        ]
+    }
+}

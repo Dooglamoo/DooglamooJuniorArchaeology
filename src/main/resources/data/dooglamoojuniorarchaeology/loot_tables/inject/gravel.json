@@ -1,0 +1,171 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "dooglamoojuniorarchaeology:hammer"
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "dooglamoojuniorarchaeology:pick"
+                  }
+                },
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "dooglamoojuniorarchaeology:drill"
+                  }
+                }
+              ]
+            }
+          ],
+          "name": "dooglamoojuniorarchaeology:feathery_spine",
+          "weight": 1000
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:hammer"
+              }
+            }
+          ],
+          "name": "dooglamoojuniorarchaeology:feathery_spine_artifact",
+          "weight": 33
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:pick"
+              }
+            }
+          ],
+          "name": "dooglamoojuniorarchaeology:feathery_spine_artifact",
+          "weight": 66
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:drill"
+              }
+            }
+          ],
+          "name": "dooglamoojuniorarchaeology:feathery_spine_artifact",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:empty",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:hammer"
+              }
+            }
+          ],
+          "weight": 3000
+        },
+        {
+          "type": "minecraft:empty",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:pick"
+              }
+            }
+          ],
+          "weight": 2000
+        },
+        {
+          "type": "minecraft:empty",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "item": "dooglamoojuniorarchaeology:drill"
+              }
+            }
+          ],
+          "weight": 1000
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "minecraft:gravel",
+              "weight": 7000
+            },
+            {
+              "type": "minecraft:alternatives",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:table_bonus",
+                      "enchantment": "minecraft:fortune",
+                      "chances": [
+                        0.1,
+                        0.14285715,
+                        0.25,
+                        1.0
+                      ]
+                    }
+                  ],
+                  "name": "minecraft:flint",
+                  "weight": 7000
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:gravel",
+                  "weight": 7000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

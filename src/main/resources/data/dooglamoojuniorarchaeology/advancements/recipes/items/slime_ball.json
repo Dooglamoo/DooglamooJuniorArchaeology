@@ -1,0 +1,32 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeology:slime_ball"
+    ]
+  },
+  "criteria": {
+    "has_algae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dooglamoojuniorarchaeology:algae"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:slime_ball"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_algae",
+      "has_the_recipe"
+    ]
+  ]
+}

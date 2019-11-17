@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+      "item": "dooglamoojuniorarchaeology:spider_nest_artifact"
+    }
+  ],
+  "result": {
+    "item": "dooglamoojuniorarchaeology:spider_nest",
+    "count": 3
+  }
+}

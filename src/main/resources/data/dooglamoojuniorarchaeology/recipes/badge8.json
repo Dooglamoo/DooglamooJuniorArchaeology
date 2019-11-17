@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WIW",
+    "SAS",
+    "WBW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    },
+    "I": {
+      "item": "minecraft:blaze_powder"
+    },
+    "A": {
+      "item": "dooglamoojuniorarchaeology:blaze_stone_artifact"
+    },
+    "B": {
+      "item": "dooglamoojuniorarchaeology:badge7"
+    }
+  },
+  "result": {
+    "item": "dooglamoojuniorarchaeology:badge8"
+  }
+}

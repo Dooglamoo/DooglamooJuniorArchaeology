@@ -1,0 +1,208 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeologymod:creeper_gas"
+    ]
+  },
+  "criteria": {
+    "has_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:terracotta"
+          }
+        ]
+      }
+    },
+    "has_white_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_terracotta"
+          }
+        ]
+      }
+    },
+    "has_orange_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:orange_terracotta"
+          }
+        ]
+      }
+    },
+    "has_magenta_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_terracotta"
+          }
+        ]
+      }
+    },
+    "has_light_blue_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_terracotta"
+          }
+        ]
+      }
+    },
+    "has_yellow_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_terracotta"
+          }
+        ]
+      }
+    },
+    "has_lime_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_terracotta"
+          }
+        ]
+      }
+    },
+    "has_pink_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pink_terracotta"
+          }
+        ]
+      }
+    },
+    "has_gray_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_terracotta"
+          }
+        ]
+      }
+    },
+    "has_light_gray_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_gray_terracotta"
+          }
+        ]
+      }
+    },
+    "has_cyan_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cyan_terracotta"
+          }
+        ]
+      }
+    },
+    "has_purple_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_terracotta"
+          }
+        ]
+      }
+    },
+    "has_blue_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_terracotta"
+          }
+        ]
+      }
+    },
+    "has_brown_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_terracotta"
+          }
+        ]
+      }
+    },
+    "has_green_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_terracotta"
+          }
+        ]
+      }
+    },
+    "has_red_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_terracotta"
+          }
+        ]
+      }
+    },
+    "has_black_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_terracotta"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:creeper_gas"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_terracotta",
+      "has_white_terracotta",
+      "has_orange_terracotta",
+      "has_magenta_terracotta",
+      "has_light_blue_terracotta",
+      "has_yellow_terracotta",
+      "has_lime_terracotta",
+      "has_pink_terracotta",
+      "has_gray_terracotta",
+      "has_light_gray_terracotta",
+      "has_cyan_terracotta",
+      "has_purple_terracotta",
+      "has_blue_terracotta",
+      "has_brown_terracotta",
+      "has_green_terracotta",
+      "has_red_terracotta",
+      "has_black_terracotta",
+      "has_the_recipe"
+    ]
+  ]
+}

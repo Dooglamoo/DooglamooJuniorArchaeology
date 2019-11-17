@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "minecraft:brick"
+  },
+  "result": "minecraft:nether_brick",
+  "experience": 0.3,
+  "cookingtime": 200
+}

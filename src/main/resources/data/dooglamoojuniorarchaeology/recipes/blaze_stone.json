@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+      "item": "dooglamoojuniorarchaeology:blaze_stone_artifact"
+    }
+  ],
+  "result": {
+    "item": "dooglamoojuniorarchaeology:blaze_stone",
+    "count": 3
+  }
+}

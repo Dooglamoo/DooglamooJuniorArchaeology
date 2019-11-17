@@ -1,0 +1,32 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeology:archaeology_chest"
+    ]
+  },
+  "criteria": {
+    "has_badge9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dooglamoojuniorarchaeology:badge9"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:archaeology_chest"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_badge9",
+      "has_the_recipe"
+    ]
+  ]
+}

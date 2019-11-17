@@ -1,0 +1,32 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeology:feather"
+    ]
+  },
+  "criteria": {
+    "has_feathery_spine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dooglamoojuniorarchaeology:feathery_spine"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:feather"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_feathery_spine",
+      "has_the_recipe"
+    ]
+  ]
+}

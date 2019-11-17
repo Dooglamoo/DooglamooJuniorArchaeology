@@ -1,0 +1,35 @@
+{
+    "parent": "dooglamoojuniorarchaeology:archaeology/badge1",
+    "display": {
+        "icon": {
+            "item": "dooglamoojuniorarchaeology:badge2"
+        },
+        "title": {
+            "translate": "advancements.archaeology.badge2.title"
+        },
+        "description": {
+            "translate": "advancements.archaeology.badge2.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_badge2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "dooglamoojuniorarchaeology:badge2"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+    [
+      "get_badge2"
+    ]
+  ]
+}

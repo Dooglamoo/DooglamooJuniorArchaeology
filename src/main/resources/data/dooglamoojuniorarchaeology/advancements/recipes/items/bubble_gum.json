@@ -1,0 +1,65 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeology:bubble_gum"
+    ]
+  },
+  "criteria": {
+    "has_dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dirt"
+          }
+        ]
+      }
+    },
+    "has_coarse_dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:coarse_dirt"
+          }
+        ]
+      }
+    },
+    "has_podzol": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:podzol"
+          }
+        ]
+      }
+    },
+    "has_grass_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:grass_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:bubble_gum"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dirt",
+      "has_coarse_dirt",
+      "has_podzol",
+      "has_grass_block",
+      "has_the_recipe"
+    ]
+  ]
+}

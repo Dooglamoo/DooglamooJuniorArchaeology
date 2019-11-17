@@ -1,0 +1,35 @@
+{
+    "parent": "dooglamoojuniorarchaeology:archaeology/tools",
+    "display": {
+        "icon": {
+            "item": "dooglamoojuniorarchaeology:bubble_gum_artifact"
+        },
+        "title": {
+            "translate": "advancements.archaeology.artifact.title"
+        },
+        "description": {
+            "translate": "advancements.archaeology.artifact.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "find_artifact": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "dooglamoojuniorarchaeology:bubble_gum_artifact"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+    [
+      "find_artifact"
+    ]
+  ]
+}

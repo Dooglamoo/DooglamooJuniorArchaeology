@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WIW",
+    "SAS",
+    "WBW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    },
+    "I": {
+      "item": "minecraft:gunpowder"
+    },
+    "A": {
+      "item": "dooglamoojuniorarchaeology:creeper_gas_artifact"
+    },
+    "B": {
+      "item": "dooglamoojuniorarchaeology:badge8"
+    }
+  },
+  "result": {
+    "item": "dooglamoojuniorarchaeology:badge9"
+  }
+}

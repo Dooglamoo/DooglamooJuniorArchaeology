@@ -1,0 +1,38 @@
+{
+    "parent": "dooglamoojuniorarchaeology:archaeology/badge9",
+    "display": {
+        "icon": {
+            "item": "dooglamoojuniorarchaeology:archaeology_chest"
+        },
+        "title": {
+            "translate": "advancements.archaeology.chest.title"
+        },
+        "description": {
+            "translate": "advancements.archaeology.chest.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "criteria": {
+        "craft_archaeology_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "dooglamoojuniorarchaeology:archaeology_chest"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+    [
+      "craft_archaeology_chest"
+    ]
+  ]
+}

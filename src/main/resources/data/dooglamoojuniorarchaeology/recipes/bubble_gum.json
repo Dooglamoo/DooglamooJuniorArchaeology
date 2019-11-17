@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+      "item": "dooglamoojuniorarchaeology:bubble_gum_artifact"
+    }
+  ],
+  "result": {
+    "item": "dooglamoojuniorarchaeology:bubble_gum",
+    "count": 3
+  }
+}

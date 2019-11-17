@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+      "item": "dooglamoojuniorarchaeology:feathery_spine_artifact"
+    }
+  ],
+  "result": {
+    "item": "dooglamoojuniorarchaeology:feathery_spine",
+    "count": 3
+  }
+}

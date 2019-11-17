@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+      "item": "dooglamoojuniorarchaeology:leather_pelt_artifact"
+    }
+  ],
+  "result": {
+    "item": "dooglamoojuniorarchaeology:leather_pelt",
+    "count": 3
+  }
+}

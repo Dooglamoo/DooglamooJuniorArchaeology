@@ -1,0 +1,51 @@
+{
+    "parent": "dooglamoojuniorarchaeology:archaeology/root",
+    "display": {
+        "icon": {
+            "item": "dooglamoojuniorarchaeology:hammer"
+        },
+        "title": {
+            "translate": "advancements.archaeology.tools.title"
+        },
+        "description": {
+            "translate": "advancements.archaeology.tools.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hammer": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "dooglamoojuniorarchaeology:hammer"
+                    }
+                ]
+            }
+        },
+        "pick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "dooglamoojuniorarchaeology:pick"
+                    }
+                ]
+            }
+        },
+        "drill": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "dooglamoojuniorarchaeology:drill"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [["hammer", "pick", "drill"]]
+}

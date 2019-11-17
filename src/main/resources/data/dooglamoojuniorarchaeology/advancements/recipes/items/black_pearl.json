@@ -1,0 +1,43 @@
+{
+  "parent": "dooglamoojuniorarchaeology:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dooglamoojuniorarchaeologymod:black_pearl"
+    ]
+  },
+  "criteria": {
+    "has_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sand"
+          }
+        ]
+      }
+    },
+    "has_red_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_sand"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dooglamoojuniorarchaeology:black_pearl"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sand",
+      "has_red_sand",
+      "has_the_recipe"
+    ]
+  ]
+}

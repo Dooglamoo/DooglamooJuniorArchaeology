@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+	{
+      "item": "dooglamoojuniorarchaeology:bubble_gum"
+    },
+	{
+      "item": "dooglamoojuniorarchaeology:black_pearl"
+    },
+    {
+      "item": "dooglamoojuniorarchaeology:black_pearl"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_dye",
+    "count": 2
+  }
+}

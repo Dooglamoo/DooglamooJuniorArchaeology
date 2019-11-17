@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    },
+	{
+      "item": "dooglamoojuniorarchaeology:bubble_gum"
+    },
+	{
+      "item": "dooglamoojuniorarchaeology:blaze_stone"
+    },
+    {
+      "item": "dooglamoojuniorarchaeology:creeper_gas"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 1
+  }
+}

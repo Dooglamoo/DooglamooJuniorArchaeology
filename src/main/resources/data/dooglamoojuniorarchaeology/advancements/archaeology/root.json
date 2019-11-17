@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "dooglamoojuniorarchaeology:archaeology_chest"
+        },
+        "title": {
+            "translate": "advancements.archaeology.root.title"
+        },
+        "description": {
+            "translate": "advancements.archaeology.root.description"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

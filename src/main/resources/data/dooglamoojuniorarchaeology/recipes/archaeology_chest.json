@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WIW",
+    "SAS",
+    "WBW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:cut_sandstone"
+    },
+    "S": {
+      "item": "dooglamoojuniorarchaeology:skeleton"
+    },
+    "I": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "A": {
+      "item": "minecraft:ender_pearl"
+    },
+    "B": {
+      "item": "dooglamoojuniorarchaeology:badge9"
+    }
+  },
+  "result": {
+    "item": "dooglamoojuniorarchaeology:archaeology_chest"
+  }
+}
