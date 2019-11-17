@@ -36,71 +36,141 @@ public class DooglamooJuniorArchaeology
 {
 	public static final String MODID = "dooglamoojuniorarchaeology";
 	public static CommonProxy proxy;
-	
-    private static final Logger LOGGER = LogManager.getLogger();
 
-    public DooglamooJuniorArchaeology()
-    {
-    	proxy = DistExecutor.runForDist(() -> ClientProxy::new, () -> CommonProxy::new);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+	private static final Logger LOGGER = LogManager.getLogger();
 
-        MinecraftForge.EVENT_BUS.register(this);
-    }
+	public DooglamooJuniorArchaeology()
+	{
+		proxy = DistExecutor.runForDist(() -> ClientProxy::new, () -> CommonProxy::new);
+		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-    private void setup(final FMLCommonSetupEvent event)
-    {
-    
-    }
+		MinecraftForge.EVENT_BUS.register(this);
+	}
 
-    private void doClientStuff(final FMLClientSetupEvent event)
-    {
-    	proxy.setup();
-    }
-    
-    @SubscribeEvent
+	private void setup(final FMLCommonSetupEvent event)
+	{
+
+	}
+
+	private void doClientStuff(final FMLClientSetupEvent event)
+	{
+		proxy.setup();
+	}
+
+	@SubscribeEvent
 	public void lootTableLoad(LootTableLoadEvent event)
 	{
-    	ResourceLocation table = null;
-    	switch (event.getName().toString())
-    	{
-    	case "minecraft:blocks/dirt": table = new ResourceLocation(MODID, "inject/dirt"); break;
-    	case "minecraft:blocks/coarse_dirt": table = new ResourceLocation(MODID, "inject/coarse_dirt"); break;
-    	case "minecraft:blocks/podzol": table = new ResourceLocation(MODID, "inject/podzol"); break;
-    	case "minecraft:blocks/grass_block": table = new ResourceLocation(MODID, "inject/grass_block"); break;
-    	case "minecraft:blocks/stone": table = new ResourceLocation(MODID, "inject/stone"); break;
-    	case "minecraft:blocks/granite": table = new ResourceLocation(MODID, "inject/granite"); break;
-    	case "minecraft:blocks/andesite": table = new ResourceLocation(MODID, "inject/andesite"); break;
-    	case "minecraft:blocks/diorite": table = new ResourceLocation(MODID, "inject/diorite"); break;
-    	case "minecraft:blocks/gravel": table = new ResourceLocation(MODID, "inject/gravel"); break;
-    	case "minecraft:blocks/sand": table = new ResourceLocation(MODID, "inject/sand"); break;
-    	case "minecraft:blocks/red_sand": table = new ResourceLocation(MODID, "inject/red_sand"); break;
-    	case "minecraft:blocks/sandstone": table = new ResourceLocation(MODID, "inject/sandstone"); break;
-    	case "minecraft:blocks/red_sandstone": table = new ResourceLocation(MODID, "inject/red_sandstone"); break;
-    	case "minecraft:blocks/clay": table = new ResourceLocation(MODID, "inject/clay"); break;
-    	case "minecraft:blocks/ice": table = new ResourceLocation(MODID, "inject/ice"); break;
-    	case "minecraft:blocks/packed_ice": table = new ResourceLocation(MODID, "inject/packed_ice"); break;
-    	case "minecraft:blocks/snow_block": table = new ResourceLocation(MODID, "inject/snow_block"); break;
-    	case "minecraft:blocks/obsidian": table = new ResourceLocation(MODID, "inject/obsidian"); break;
-    	case "minecraft:blocks/terracotta": table = new ResourceLocation(MODID, "inject/terracotta"); break;
-    	case "minecraft:blocks/white_terracotta": table = new ResourceLocation(MODID, "inject/white_terracotta"); break;
-    	case "minecraft:blocks/orange_terracotta": table = new ResourceLocation(MODID, "inject/orange_terracotta"); break;
-    	case "minecraft:blocks/magenta_terracotta": table = new ResourceLocation(MODID, "inject/magenta_terracotta"); break;
-    	case "minecraft:blocks/light_blue_terracotta": table = new ResourceLocation(MODID, "inject/light_blue_terracotta"); break;
-    	case "minecraft:blocks/yellow_terracotta": table = new ResourceLocation(MODID, "inject/yellow_terracotta"); break;
-    	case "minecraft:blocks/lime_terracotta": table = new ResourceLocation(MODID, "inject/lime_terracotta"); break;
-    	case "minecraft:blocks/pink_terracotta": table = new ResourceLocation(MODID, "inject/pink_terracotta"); break;
-    	case "minecraft:blocks/gray_terracotta": table = new ResourceLocation(MODID, "inject/gray_terracotta"); break;
-    	case "minecraft:blocks/light_gray_terracotta": table = new ResourceLocation(MODID, "inject/light_gray_terracotta"); break;
-    	case "minecraft:blocks/cyan_terracotta": table = new ResourceLocation(MODID, "inject/cyan_terracotta"); break;
-    	case "minecraft:blocks/purple_terracotta": table = new ResourceLocation(MODID, "inject/purple_terracotta"); break;
-    	case "minecraft:blocks/blue_terracotta": table = new ResourceLocation(MODID, "inject/blue_terracotta"); break;
-    	case "minecraft:blocks/brown_terracotta": table = new ResourceLocation(MODID, "inject/brown_terracotta"); break;
-    	case "minecraft:blocks/green_terracotta": table = new ResourceLocation(MODID, "inject/green_terracotta"); break;
-    	case "minecraft:blocks/red_terracotta": table = new ResourceLocation(MODID, "inject/red_terracotta"); break;
-    	case "minecraft:blocks/black_terracotta": table = new ResourceLocation(MODID, "inject/black_terracotta"); break;
-    	}
-		
+		ResourceLocation table = null;
+		switch (event.getName().toString())
+		{
+		case "minecraft:blocks/dirt":
+			table = new ResourceLocation(MODID, "inject/dirt");
+			break;
+		case "minecraft:blocks/coarse_dirt":
+			table = new ResourceLocation(MODID, "inject/coarse_dirt");
+			break;
+		case "minecraft:blocks/podzol":
+			table = new ResourceLocation(MODID, "inject/podzol");
+			break;
+		case "minecraft:blocks/grass_block":
+			table = new ResourceLocation(MODID, "inject/grass_block");
+			break;
+		case "minecraft:blocks/stone":
+			table = new ResourceLocation(MODID, "inject/stone");
+			break;
+		case "minecraft:blocks/granite":
+			table = new ResourceLocation(MODID, "inject/granite");
+			break;
+		case "minecraft:blocks/andesite":
+			table = new ResourceLocation(MODID, "inject/andesite");
+			break;
+		case "minecraft:blocks/diorite":
+			table = new ResourceLocation(MODID, "inject/diorite");
+			break;
+		case "minecraft:blocks/gravel":
+			table = new ResourceLocation(MODID, "inject/gravel");
+			break;
+		case "minecraft:blocks/sand":
+			table = new ResourceLocation(MODID, "inject/sand");
+			break;
+		case "minecraft:blocks/red_sand":
+			table = new ResourceLocation(MODID, "inject/red_sand");
+			break;
+		case "minecraft:blocks/sandstone":
+			table = new ResourceLocation(MODID, "inject/sandstone");
+			break;
+		case "minecraft:blocks/red_sandstone":
+			table = new ResourceLocation(MODID, "inject/red_sandstone");
+			break;
+		case "minecraft:blocks/clay":
+			table = new ResourceLocation(MODID, "inject/clay");
+			break;
+		case "minecraft:blocks/ice":
+			table = new ResourceLocation(MODID, "inject/ice");
+			break;
+		case "minecraft:blocks/packed_ice":
+			table = new ResourceLocation(MODID, "inject/packed_ice");
+			break;
+		case "minecraft:blocks/snow_block":
+			table = new ResourceLocation(MODID, "inject/snow_block");
+			break;
+		case "minecraft:blocks/obsidian":
+			table = new ResourceLocation(MODID, "inject/obsidian");
+			break;
+		case "minecraft:blocks/terracotta":
+			table = new ResourceLocation(MODID, "inject/terracotta");
+			break;
+		case "minecraft:blocks/white_terracotta":
+			table = new ResourceLocation(MODID, "inject/white_terracotta");
+			break;
+		case "minecraft:blocks/orange_terracotta":
+			table = new ResourceLocation(MODID, "inject/orange_terracotta");
+			break;
+		case "minecraft:blocks/magenta_terracotta":
+			table = new ResourceLocation(MODID, "inject/magenta_terracotta");
+			break;
+		case "minecraft:blocks/light_blue_terracotta":
+			table = new ResourceLocation(MODID, "inject/light_blue_terracotta");
+			break;
+		case "minecraft:blocks/yellow_terracotta":
+			table = new ResourceLocation(MODID, "inject/yellow_terracotta");
+			break;
+		case "minecraft:blocks/lime_terracotta":
+			table = new ResourceLocation(MODID, "inject/lime_terracotta");
+			break;
+		case "minecraft:blocks/pink_terracotta":
+			table = new ResourceLocation(MODID, "inject/pink_terracotta");
+			break;
+		case "minecraft:blocks/gray_terracotta":
+			table = new ResourceLocation(MODID, "inject/gray_terracotta");
+			break;
+		case "minecraft:blocks/light_gray_terracotta":
+			table = new ResourceLocation(MODID, "inject/light_gray_terracotta");
+			break;
+		case "minecraft:blocks/cyan_terracotta":
+			table = new ResourceLocation(MODID, "inject/cyan_terracotta");
+			break;
+		case "minecraft:blocks/purple_terracotta":
+			table = new ResourceLocation(MODID, "inject/purple_terracotta");
+			break;
+		case "minecraft:blocks/blue_terracotta":
+			table = new ResourceLocation(MODID, "inject/blue_terracotta");
+			break;
+		case "minecraft:blocks/brown_terracotta":
+			table = new ResourceLocation(MODID, "inject/brown_terracotta");
+			break;
+		case "minecraft:blocks/green_terracotta":
+			table = new ResourceLocation(MODID, "inject/green_terracotta");
+			break;
+		case "minecraft:blocks/red_terracotta":
+			table = new ResourceLocation(MODID, "inject/red_terracotta");
+			break;
+		case "minecraft:blocks/black_terracotta":
+			table = new ResourceLocation(MODID, "inject/black_terracotta");
+			break;
+		}
+
 		if (table != null)
 		{
 			event.getTable().removePool("main");
@@ -108,25 +178,25 @@ public class DooglamooJuniorArchaeology
 		}
 	}
 
-    @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
-    public static class RegistryEvents
-    {
-        @SubscribeEvent
-        public static void onBlockRegistry(RegistryEvent.Register<Block> event)
-        {
-        	ModBlocks.registerBlocks(event.getRegistry());
-        }
-        
-        @SubscribeEvent
-        public static void onItemRegistry(RegistryEvent.Register<Item> event)
-        {
-        	ModItems.registerItems(event.getRegistry());
-        }
-        
-        @SubscribeEvent
-        public static void onTileEntityTypeRegistry(RegistryEvent.Register<TileEntityType<?>> event)
-        {
-        	ModTileEntityTypes.registerTileEntityTypes(event.getRegistry());
-        }
-    }
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+	public static class RegistryEvents
+	{
+		@SubscribeEvent
+		public static void onBlockRegistry(RegistryEvent.Register<Block> event)
+		{
+			ModBlocks.registerBlocks(event.getRegistry());
+		}
+
+		@SubscribeEvent
+		public static void onItemRegistry(RegistryEvent.Register<Item> event)
+		{
+			ModItems.registerItems(event.getRegistry());
+		}
+
+		@SubscribeEvent
+		public static void onTileEntityTypeRegistry(RegistryEvent.Register<TileEntityType<?>> event)
+		{
+			ModTileEntityTypes.registerTileEntityTypes(event.getRegistry());
+		}
+	}
 }
