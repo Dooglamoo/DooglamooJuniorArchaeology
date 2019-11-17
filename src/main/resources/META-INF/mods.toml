@@ -33,7 +33,7 @@ displayName="Dooglamoo Jr. Archaeology" #mandatory
 #displayURL="" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="" #optional
+logoFile="dooglamoojuniorarchaeologylogo.png" #optional
 
 # A text field displayed in the mod UI
 #credits="" #optional
